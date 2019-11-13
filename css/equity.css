@@ -1,0 +1,87 @@
+html,body {
+    width: 100%;
+    min-height: 100%;
+    background: #E4F2FF;
+}
+.header {
+    width: 100%;
+    height: 2.7rem;
+    background: url('../images/my/my-bg.png') no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+}
+.header .title {
+    color: #fff;
+    font-size: 0.37rem;
+    margin: 0.72rem auto 0;
+    text-align: center;
+}
+
+.equity-list {
+    position: absolute;
+    left: 0.26rem;
+    top: 1.96rem;
+    width: calc(100% - 0.52rem);
+}
+.equity-list .equity-li{
+    border-radius: 0.1rem;
+    background: #fff;
+    padding: 0.36rem 0.56rem 0.46rem 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:0 0.22rem 0.28rem -0.2rem rgba(229,236,237,1);
+    margin-bottom: 0.3rem;
+}
+.equity-list .equity-li .li-l {
+    max-width: 4.4rem;
+}
+.equity-list .equity-li .li-l .li-l-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.36rem;
+    color: #759BFA;
+    border-bottom: 0.02rem solid #759BFA;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.32rem;
+}
+.equity-list .equity-li .li-l .li-l-cont {
+    color: #9B9B9B;
+    font-size: 0.24rem;
+}
+.equity-list .equity-li .li-r {
+    flex: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    object-fit: cover;
+}
+.equity-list .equity-li .li-r img {
+    width: 100%;
+    height: 100%;
+}
+.has-used {
+    color: #333;
+    font-size: 0.24rem;
+    margin: 0.85rem 0 0.3rem;
+}
+.equity-list .equity-li .li-l .has-used-title {
+    color: #9B9B9B;
+    border-bottom: 0.02rem solid #9B9B9B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

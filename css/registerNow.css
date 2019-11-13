@@ -1,0 +1,87 @@
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    background: #F5F5FA;
+    padding-top: 0.4rem;
+}
+
+.error {
+    font-size: 0.2rem !important;
+    ;
+    color: #f00 !important;
+    height: 0.5rem;
+    line-height: 1;
+    display: none;
+}
+
+.register-list {
+    background: #fff;
+    padding-left: 0.52rem;
+    width: 100%;
+}
+
+.register-list1 {
+    margin-top: 0.3rem;
+}
+
+.register-list .register-li {
+    min-height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+
+.register-list .register-li .register-li-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.32rem;
+    color: #333;
+}
+
+.register-list .register-li .register-li-cont input {
+    margin-right: 0.5rem;
+}
+
+.register-list .register-li .hospital-li {
+    position: relative;
+}
+
+.register-list .register-li .hospital-li .hospital-list {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 1.2rem;
+    width: 6.3rem;
+    height: 2.6rem;
+    box-shadow: 0 0 0.12rem 0 rgba(0, 0, 0, 0.17);
+    background: #fff;
+    overflow-y: auto;
+}
+
+.register-list .register-li .hospital-li .hospital-list p {
+    border-bottom: 0.01rem solid #E2E2E2;
+    height: 0.88rem;
+    padding: 0 0.32rem;
+    color: #333333;
+    font-size: 0.32rem;
+    margin: 0;
+}
+
+.register-button {
+    width: 6rem;
+    height: 1rem;
+    background: #759BFA;
+    color: #fff;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+}
+
+
+/* 省市 */
+.picker-items-col-right {
+    display: none !important;
+}

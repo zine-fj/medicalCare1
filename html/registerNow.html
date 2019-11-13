@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>预约挂号</title>
+    <!-- 公用 -->
+    <link rel="stylesheet" href="../public/css/base.css">
+    <script src="../public/js/jquery.min.js"></script>
+    <script src="../public/js/rem.js"></script>
+    <!-- 省市 -->
+    <link rel="stylesheet" href="../public/css/MultiPicker.css">
+    <!-- 时分 -->
+    <script type="text/javascript" src="../public/js/jdate.min.js"></script>
+
+    <script src="../public/js/zzRep.js"></script>
+
+    <link rel="stylesheet" href="../css/registerNow.css">
+</head>
+
+<body>
+    <div class="register-list">
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">选择地市</span>
+                <input type="text" placeholder="请选择地市" readonly id="location" name="location">
+            </div>
+        </div>
+        <div class="register-li">
+            <div class="register-li-cont hospital-li">
+                <span class="li-l">就诊医院</span>
+                <input id="hospital" type="text" placeholder="请输入就诊医院" />
+                <div class="hospital-list">
+                    <p class="province">医院</p>
+                    <p class="province">医院</p>
+                    <p class="province">医院</p>
+                </div>
+            </div>
+            <div class="register-li-error error"></div>
+        </div>
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">就诊医生</span>
+                <input id="docterName" type="text" placeholder="请输入就诊医生姓名" />
+            </div>
+            <div class="docter-error error">请输入正确的医生姓名</div>
+        </div>
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">预约时间</span>
+                <input readonly class="form-control" type="text" id="dateChoice" placeholder="请选择预约时间">
+            </div>
+        </div>
+    </div>
+
+    <div class="register-list register-list1">
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">姓名</span>
+                <input id="name" type="text" placeholder="请输入姓名" />
+            </div>
+            <div class="name-error error">请输入正确的姓名</div>
+        </div>
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">身份证号</span>
+                <input id="telphoneName" type="text" placeholder="请输入身份证号" />
+            </div>
+            <div class="telphone-error error">请输入正确的身份证号</div>
+        </div>
+        <div class="register-li">
+            <div class="register-li-cont">
+                <span class="li-l">联系电话</span>
+                <input id="phone" type="text" placeholder="请输入联系电话" />
+            </div>
+            <div class="phone-error error">请输入正确的手机号</div>
+        </div>
+    </div>
+    <div id="targetContainer"></div>
+    <div class="register-button">提交</div>
+
+    <script src="../public/js/city.js"></script>
+    <script src="../public/js/MultiPicker.js"></script>
+    <script src="../js/registerNow.js"></script>
+</body>
+
+</html>

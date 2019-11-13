@@ -1,0 +1,130 @@
+html,body {
+    width: 100%;
+    min-height: 100%;
+    background: #F5F5FA;
+}
+.contant {
+    width: 100%;
+    height: calc(100% - 1rem);
+    overflow-y: auto;
+}
+/* 轮播图 */
+.swiper-container {
+    width: 100%;
+    height: 3.04rem;
+}
+.swiper-container .swiper-slide {
+    object-fit: cover;
+}
+.swiper-container .swiper-slide img {
+    width: 100%;
+}
+
+.nav-list {
+    width: 100%;
+    height: 1.2rem;
+    padding: 0.28rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #9B9B9B;
+    font-size: 0.32rem;
+    border-bottom: 0.01rem solid #9B9B9B;
+    margin-bottom: 0.2rem;
+    background: #fff;
+}
+.nav-list span {
+    width: 0.02rem;
+    height: 0.66rem;
+    background: #9B9B9B;
+}
+.nav-list .nav-li {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.66rem;
+}
+.nav-list .nav-li-act {
+    color: #759BFA;
+    position: relative;
+}
+.nav-list .nav-li-act:after {
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    content: '';
+    width: 100%;
+    height: 0.02rem;
+    background: #759BFA;
+}
+
+/* 内容 */
+.nav-cont {
+    background: #fff;
+}
+.nav-cont .nav-cont-cl {
+    
+}
+.nav-cont .nav-cont-cl .nav-title{
+    font-size: 0.32rem;
+    color: #333;
+    padding: 0.3rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.nav-cont .nav-cont-cl .nav-cont-list {
+    padding: 0.3rem;
+    font-size: 0.26rem;
+    color: #606060;
+}
+.nav-cont .nav-cont-cl .nav-cont-list .cont-li {
+    margin-bottom: 0.2rem;
+}
+.nav-cont .nav-cont-cl .nav-cont-list .cont-li .title-index{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+.nav-cont .nav-cont-cl .nav-cont-list .cont-li .title-index-3 {
+    color: #606060;
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.nav-cont .nav-cont-cl .nav-cont-list .cont-li .title-index .index {
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0.36rem;
+    display: inline-block;
+    margin-right: 0.1rem;
+    background: #5D8EF9;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    box-shadow:0 -0.02rem 0.1rem 0 rgba(0,0,0,0.3);
+}
+.footer a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #5A8BFC;
+    width: 3.18rem;
+    height: 100%;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 0.32rem;
+}
+
+
+
+
+

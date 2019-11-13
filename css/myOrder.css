@@ -1,0 +1,52 @@
+html,body {
+    width: 100%;
+    min-height: 100%;
+    background: #F5F5FA;
+    padding-top: 0.32rem;
+}
+.my-order .my-order-list .my-order-li {
+    background: #fff;
+    padding: 0 0.38rem;
+    margin-bottom: 0.36rem;
+}
+.my-order .my-order-list .my-order-li .title{
+    padding: 0.26rem 0;
+    color: #5A8BFC;
+    font-size: 0.32rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+    display: flex;
+    justify-content: space-between;
+}
+.my-order .my-order-list .my-order-li .title .title-span1 {
+    color: #F99716;
+}
+.my-order .my-order-list .my-order-li .title img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.my-order .my-order-list .my-order-li .cont{
+    padding: 0.28rem 0 0.4rem;
+}
+.my-order .my-order-list .my-order-li .cont .hospital{
+    margin-bottom: 0.28rem;
+    color: #333;
+    font-size: 0.36rem;
+    line-height: 1;
+}
+.my-order .my-order-list .my-order-li .cont .time{
+    color: #9B9B9B;
+    font-size: 0.28rem;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+

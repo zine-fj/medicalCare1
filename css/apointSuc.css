@@ -1,0 +1,76 @@
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.apoint-suc {
+    width: 100%;
+    height: 100%;
+    background: #f5f5fa;
+}
+
+.apoint-suc .apoint-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.46rem 0;
+}
+
+.apoint-suc .apoint-header .apoint-img {
+    width: 2.34rem;
+    height: 2rem;
+    object-fit: cover;
+    margin-right: 0.24rem;
+}
+
+.apoint-suc .apoint-header .apoint-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.apoint-suc .apoint-header .suc-word {
+    font-size: 0.44rem;
+    color: #000;
+}
+
+.apoint-suc .apoint-center {
+    background: #fff;
+    padding: 0 0.38rem;
+}
+
+.apoint-suc .apoint-center .apoint-title {
+    padding: 0.34rem 0 0.24rem;
+    color: #333;
+    font-size: 0.32rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+
+.apoint-suc .apoint-center .apoint-li {
+    font-size: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+}
+
+.apoint-suc .apoint-center .apoint-li span:first-child {
+    color: #9B9B9B;
+}
+
+.apoint-suc .apoint-center .apoint-li span:last-child {
+    color: #333;
+}
+
+.go-index {
+    display: block;
+    width: 6rem;
+    height: 1rem;
+    background: #759BFA;
+    color: #fff;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0.8rem auto 0.5rem;
+    border-radius: 1rem;
+}
