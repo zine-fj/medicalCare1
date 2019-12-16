@@ -1,0 +1,36 @@
+.consult-list {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background: #F2F2F2;
+    padding-top: 0.2rem;
+}
+.consult-list .reply-list .reply-li {
+    position: relative;
+    margin-bottom: 0.1rem;
+    padding: 0.46rem 0.46rem 0.5rem 0.58rem;
+    background-color: #fff;
+}
+.consult-list .reply-list .reply-li .cont {
+    color: #333;
+    font-size: 0.32rem;
+    margin-bottom: 0.2rem;
+}
+.consult-list .reply-list .reply-li .time {
+    color: #9B9B9B;
+    font-size: 0.28rem;
+}
+.consult-list .reply-list .reply-li .img {
+    position: absolute;
+    right: 0.18rem;
+    bottom: 0;
+    width: 1.7rem;
+    height: 1.46rem;
+}
+
+
+
+
+
+
+

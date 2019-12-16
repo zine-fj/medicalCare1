@@ -10,8 +10,19 @@ html,body {
     overflow-y: auto;
 }
 .consult .consult-cont {
+    position: relative;
     padding:  0.46rem 0.58rem;
     background: #fff;
+}
+.consult .consult-cont .consult-over {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: -1.3rem;
+    width: 1.7rem;
+    height: 1.46rem;
+    object-fit: contain;
+    z-index: 99;
 }
 
 .consult .consult-cont .cont{

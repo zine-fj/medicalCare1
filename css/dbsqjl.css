@@ -1,0 +1,122 @@
+.dbsqjl {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #F5F6FC;
+}
+.dbsqjl .header {
+    position: relative;
+}
+.dbsqjl .header .header-img {
+    height: 2.96rem;
+    background: url(../images/my/my-bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-origin: cover;
+}
+.dbsqjl .header .header-title {
+    position: absolute;
+    top: 0.66rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.dbsqjl .header .header-title .title {
+    font-size: 0.24rem;
+}
+.dbsqjl .header .header-title .money {
+    font-size: 0.4rem;
+}
+.dbsqjl .header .header-title .money .num {
+    font-size: 1rem;
+}
+
+.dbsqjl .times {
+    padding: 0.26rem 0 0.18rem 0.36rem;
+    color: #9B9B9B;
+    font-size: 0.28rem;
+    line-height: 1;
+}
+
+.dbsqjl .dbsqjl-list {
+
+}
+.dbsqjl .dbsqjl-list .jl-li {
+    background-color: #fff;
+    border-top: 0.01rem solid #E2E2E2;
+    padding: 0.48rem 0.25rem 0.4rem 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.24rem;
+}
+.dbsqjl .dbsqjl-list .jl-li:last-child {
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsqjl .dbsqjl-list .jl-li {
+   
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-l {
+
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-l .danhao {
+    color: #9B9B9B;
+    margin-bottom: 0.42rem;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-l .money {
+    line-height: 1;
+    font-size: 0.44rem;
+    color: #333;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r {
+    text-align: right;
+    flex: none;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .type {
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #FFC726;
+    padding: 0.05rem 0.16rem;
+    border-radius: 0.2rem;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 0.48rem;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .type1 {
+    background-color: #759BFA;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .type2 {
+    background-color: #65C07A;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .type3 {
+    background-color: #FF6E6E;
+}
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .type {
+}
+
+.dbsqjl .dbsqjl-list .jl-li .jl-li-r .time {
+    color: #9B9B9B;
+
+}
+.dbsqjl .dbsqjl-list .jl-li .reject-reason {
+    margin-top: 0.32rem;
+    color: #FF6E6E;
+}
+
+.dbsqjl .footer {
+    display: none;
+    margin: 2rem auto 0;
+    text-align: center;
+}
+.dbsqjl .footer .footer-img {
+    display: inline-block;
+    width: 2.8rem;
+    height: 2.64rem;
+    background: url(../images/db/db.png) no-repeat;
+    background-size: 100% auto;
+    /* margin-bottom: 0.2rem; */
+}
+.dbsqjl .footer p {
+    color: #333333;
+    font-size: 0.32rem;
+}
+

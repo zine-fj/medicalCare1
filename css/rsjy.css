@@ -1,0 +1,126 @@
+.rsjy {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #fff;
+}
+.rsjy .header {
+    height: 3.54rem;
+}
+.rsjy .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rsjy .nav {
+    position: absolute;
+    left: 0.26rem;
+    /* left: 0; */
+    top: 2.76rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 0.52rem);
+    height: 3.1rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    box-shadow:0 0 0.2rem 0 rgba(117,155,250,0.3);
+}
+.rsjy .nav .list {
+    width: 4.56rem;
+    height: 0.96rem;
+    margin-bottom: 0.34rem;
+}
+.rsjy .nav .list img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.rsjy .nav .help {
+    width: 5.72rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: #F99716;
+    font-size: 0.36rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rsjy .word {
+    margin: 2.94rem 0 0.66rem;
+    padding: 0 0.5rem;
+    color: #5C5C5C;
+    font-size: 0.24rem;
+    line-height: 1.5;
+}
+.rsjy .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.rsjy .foot .foot-li {
+    text-align: center;
+}
+.rsjy .foot .foot-li img {
+    width: 1.4rem;
+    height: 1.4rem;
+    object-fit: contain;
+    margin-bottom: 0.2rem;
+}
+.rsjy .foot .foot-li p {
+    color: #333;
+    font-size: 0.28rem;
+}
+
+.rsjy .mask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.rsjy .mask .mask-cont {
+    width: 6rem;
+    height: 7.18rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin: 1.76rem auto 0;
+    overflow: hidden;
+}
+.rsjy .mask .mask-cont .cont1 {
+    padding: 1.12rem 0.36rem 0;
+    text-align: center;
+    height: 6.14rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.rsjy .mask .mask-cont .cont1 img {
+    width: 2.9rem;
+    height: 2.48rem;
+    margin-bottom: 0.84rem;
+}
+.rsjy .mask .mask-cont .cont1 p {
+    font-size: 0.32rem;
+    color: #333;
+}
+.rsjy .mask .mask-cont .know {
+    width: 100%;
+    height: 1rem;
+    color: #1A79F9;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+

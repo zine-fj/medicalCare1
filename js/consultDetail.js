@@ -51,3 +51,11 @@ $('.ask').click(function () {
 })
 
 
+
+// 如果咨询超过三天
+var consultOver = true;
+if(consultOver) {
+    $('.consult-over').show();
+    $('.questioning').hide();
+    $('.consult').css('height','100%')
+};

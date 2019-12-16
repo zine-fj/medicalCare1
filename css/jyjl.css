@@ -1,0 +1,120 @@
+.jyjl {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #F5F6FC;
+}
+.jyjl .header {
+    position: relative;
+}
+.jyjl .header .header-img {
+    height: 2.96rem;
+    background: url(../images/my/my-bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-origin: cover;
+}
+.jyjl .header .header-title {
+    position: absolute;
+    top: 0.66rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.jyjl .header .header-title .title {
+    font-size: 0.24rem;
+}
+.jyjl .header .header-title .money {
+    font-size: 0.4rem;
+}
+.jyjl .header .header-title .money .num {
+    font-size: 1rem;
+}
+
+.jyjl .times {
+    padding: 0.26rem 0 0.18rem 0.36rem;
+    color: #9B9B9B;
+    font-size: 0.28rem;
+    line-height: 1;
+}
+
+.jyjl .jl-list {
+
+}
+.jyjl .jl-list .jl-li {
+    background-color: #fff;
+    border-top: 0.01rem solid #E2E2E2;
+    padding: 0.48rem 0.25rem 0.4rem 0.35rem;
+}
+.jyjl .jl-list .jl-li:last-child {
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.jyjl .jl-list .jl-li .jl-li-cont {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.24rem;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-l {
+
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-l .danhao {
+    color: #9B9B9B;
+    margin-bottom: 0.42rem;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-l .money {
+    line-height: 1;
+    font-size: 0.44rem;
+    color: #333;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r {
+    text-align: right;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .type {
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #FFC726;
+    padding: 0.05rem 0.16rem;
+    border-radius: 0.2rem;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 0.48rem;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .type1 {
+    background-color: #759BFA;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .type2 {
+    background-color: #65C07A;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .type3 {
+    background-color: #FF6E6E;
+}
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .type {
+}
+
+.jyjl .jl-list .jl-li .jl-li-cont .jl-li-r .time {
+    color: #9B9B9B;
+
+}
+.jyjl .jl-list .jl-li .reject-reason {
+    margin-top: 0.26rem;
+    color: #FF6E6E;
+}
+
+.jyjl .footer {
+    display: none;
+    margin: 2rem auto 0;
+    text-align: center;
+}
+.jyjl .footer .footer-img {
+    display: inline-block;
+    width: 2.8rem;
+    height: 2.64rem;
+    background: url(../images/db/jhc.png) no-repeat;
+    background-size: 100% auto;
+    /* margin-bottom: 0.2rem; */
+}
+.jyjl .footer p {
+    color: #333333;
+    font-size: 0.32rem;
+}
+

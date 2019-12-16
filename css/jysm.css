@@ -1,0 +1,30 @@
+.jysm {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #F5F6FC;
+}
+.jysm .cont {
+    padding: 0.4rem 0.45rem 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.jysm .cont .cont-li {
+    margin-bottom: 0.5rem;
+}
+.jysm .cont .cont-li .title {
+    color: #333333;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+.jysm .cont .cont-li .cont-li-li {
+    color: #5C5C5C;
+    font-size: 0.28rem;
+}
+.jysm .cont .cont-li .cont-li-li .red {
+    color: #F84E04;
+}
+.jysm .cont .cont-li:last-child .cont-li-li {
+    margin-bottom: 0.4rem;
+}

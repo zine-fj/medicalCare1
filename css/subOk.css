@@ -1,0 +1,79 @@
+.sub-ok {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #F5F6FC;
+    text-align: center;
+    padding: 1.26rem 0.75rem 0.7rem;
+}
+.sub-ok .header {
+
+}
+.sub-ok .header .ok-img {
+    display: block;
+    margin: 0 auto 0.34rem;
+    width: 3.84rem;
+    height: 3.3rem;
+}
+.sub-ok .header .ok-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sub-ok .header h3 {
+    color: #000;
+    font-size: 0.44rem;
+    margin-bottom: 0.15rem;
+}
+.sub-ok .header .danhao {
+    margin-bottom: 0.15rem;
+    color: #9B9B9B;
+    font-size: 0.28rem;
+}
+.sub-ok .header .danhao span {
+    color: 0.333rem;
+}
+.sub-ok .header .plase {
+    color: #9B9B9B;
+    font-size: 0.28rem;
+}
+
+.sub-ok .footer {
+    position: absolute;
+    bottom: 0.7rem;
+    left: 0.76rem;
+    right: 0;
+    width: calc(100% - 1.52rem);
+}
+.sub-ok .footer .to-index {
+    width: 100%;
+    height: 0.9rem;
+    border-radius: 0.9rem;
+    background-color: #759BFA;
+    color: #fff;
+    font-size: 0.36rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.52rem;
+}
+.sub-ok .footer .tips {
+    color: #9B9B9B;
+    font-size: 0.28rem;
+}
+.sub-ok .footer .tips .tel {
+    color: #449EFC;
+}
+
+
+
+
+
+
+
+
+
+
+
+

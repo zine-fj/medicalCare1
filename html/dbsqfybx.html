@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>代步申请费用报销</title>
+    <!-- 公用 -->
+    <link rel="stylesheet" href="../public/css/base.css">
+    <script src="../public/js/jquery.min.js"></script>
+    <script src="../public/js/rem.js"></script>
+
+    <!-- 时分 -->
+    <script type="text/javascript" src="../public/js/jdate.min.js"></script>
+
+    <script src="../public/js/zzRep.js"></script>
+
+    <link rel="stylesheet" href="../css/dbsqfybx.css">
+</head>
+
+<body>
+    <div class="dbsqfybx">
+        <div class="tips">
+            <p class="cont">
+                <span class="red">【服务提示】</span>
+                请于车辆提出后
+                <span class="red1">48小时内</span>
+                申请代步报销，并邮寄扣车单据和交款凭证到指定地点报销，邮费需自费。
+            </p>
+            <p class="address">查看邮寄地址>></p>
+        </div>
+        <div class="list">
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">姓名</div>
+                    <input id="name" class="li-r" type="text" placeholder="请输入您的姓名" />
+                </div>
+                <div class="name-error error">请输入正确的姓名</div>
+            </div>
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">联系电话</div>
+                    <input id="phone" class="li-r" type="number" placeholder="请输入联系电话" />
+                </div>
+                <div class="phone-error error">请输入正确的联系电话</div>
+            </div>
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">车牌号</div>
+                    <input id="chephao" class="li-r" type="text" placeholder="请输入出险车辆车牌号" />
+                </div>
+
+                <div class="cheph-error error">请输入正确的车牌号</div>
+            </div>
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">开始时间</div>
+                    <input readonly id="starTime" class="li-r" type="text" placeholder="请输入扣车时间" />
+                </div>
+
+                <div class="startime-error error">请输入正确的开始时间</div>
+            </div>
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">结束时间</div>
+                    <input readonly id="endTime" class="li-r" type="text" placeholder="请输入提车时间" />
+                </div>
+
+                <div class="endtime-error error">请输入正确的结束时间</div>
+            </div>
+            <div class="li">
+                <div class="li-cont">
+                    <div class="li-l">快递单号</div>
+                    <input id="kuaidiHao" class="li-r" type="text" placeholder="请输入快递单号" />
+                </div>
+
+                <div class="kuaidi-error error">请输入快递单号</div>
+            </div>
+        </div>
+        <div class="upload-img">
+            <p class="title">上传相关照片<span class="red1">*点击图片进行修改</span></p>
+            <div class="upload">
+                <div class="uploadImgs">
+                    <div class="upload-img-png">
+                        <!-- <input class="upload-input" type="file" multiple accept='image/*'> -->
+                        <img id="uploadImg" src="../images/consult/upload-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="notes">*请上传行驶证、驾驶证、交警事故认定书、扣车单据、交款凭证快递单号照片</p>
+        </div>
+
+        <div class="footer">
+            <div class="agree">
+                <label for="ok">
+                    <input type="checkbox" id="ok" />
+                    <p>我同意车质惠（山东）健康科技有限公司和腾讯获取以上信息以便核实身份，详情请查看<a href="">《隐私申明》</a></p>
+
+                </label>
+
+            </div>
+            <button class="sub">提交申请</button>
+        </div>
+        <!-- 邮件地址内容 -->
+        <div class="mask address-mask">
+            <div class="address-detail">
+                <div class="title">邮寄地址</div>
+                <div class="address-cont">
+                    <div class="li">
+                        <span class="li-l">收件地址：</span>
+                        <span id="mailAddress" class="li-r"></span>
+                    </div>
+                    <div class="li">
+                        <span class="li-l">收件人：</span>
+                        <span id="mailName" class="li-r"></span>
+                    </div>
+                    <div class="li">
+                        <span class="li-l">邮编：</span>
+                        <span id="mailNum" class="li-r"></span>
+                    </div>
+                </div>
+                <div class="know">我知道了</div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/dbsqfybx.js"></script>
+</body>
+
+</html>

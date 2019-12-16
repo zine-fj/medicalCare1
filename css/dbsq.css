@@ -1,0 +1,140 @@
+.dbsq {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #E4F2FF;
+}
+.dbsq .header {
+    position: relative;
+}
+.dbsq .header .header-img {
+    height: 2.96rem;
+    background: url(../images/my/my-bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-origin: cover;
+}
+.dbsq .header .word {
+    position: absolute;
+    top: 0.72rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.36rem;
+}
+.dbsq .list {
+    position: absolute;
+    top: 1.86rem;
+    left: 0.25rem;
+    width: calc(100% - 0.5rem);
+} 
+.dbsq .list .li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 2.46rem;
+    padding: 0.36rem 0.56rem 0.46rem 0.42rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.dbsq .list .li .li-l {
+    width: 55%;
+}
+.dbsq .list .li .li-l .title {
+    display: inline-block;
+    font-size: 0.36rem;
+    color: #759BFA;
+    line-height: 1;
+    padding-bottom: 0.08rem;
+    margin-bottom: 0.35rem;
+    border-bottom: 0.04rem solid #759BFA;
+}
+.dbsq .list .li .li-l p {
+    color: #9B9B9B;
+    font-size: 0.24rem;
+}
+
+.dbsq .list .li .li-r {
+    flex: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid red;
+}
+.dbsq .list .li .li-r img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.dbsq .cont {
+    margin-top: 4.7rem;
+    font-size: 0.28rem;
+    padding: 0 0.6rem 0 0.46rem;
+}
+.dbsq .cont .cont-title {
+    color: #333;
+    font-weight: 600;
+}
+.dbsq .cont p {
+    color: #5C5C5C;
+}
+.dbsq .cont .cont-1 {
+    margin-bottom: 0.6rem;
+}
+
+
+.dbsq .mask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.dbsq .mask .mask-cont {
+    width: 6rem;
+    height: 7.18rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin: 1.76rem auto 0;
+    overflow: hidden;
+}
+.dbsq .mask .mask-cont .cont1 {
+    padding: 1.12rem 0.36rem 0;
+    text-align: center;
+    height: 6.14rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsq .mask .mask-cont .cont1 img {
+    width: 2.9rem;
+    height: 2.48rem;
+    margin-bottom: 0.84rem;
+}
+.dbsq .mask .mask-cont .cont1 p {
+    font-size: 0.32rem;
+    color: #333;
+}
+.dbsq .mask .mask-cont .know {
+    width: 100%;
+    height: 1rem;
+    color: #1A79F9;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

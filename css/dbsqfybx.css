@@ -1,0 +1,225 @@
+.dbsqfybx {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #F5F6FC;
+    overflow: hidden;
+}
+.red {
+    color: #FF0000;
+}
+.red1 {
+    color: #F84E04;
+}
+.error {
+    font-size: 0.2rem !important;
+    ;
+    color: #f00 !important;
+    height: 0.5rem;
+    line-height: 1;
+    display: none;
+}
+.dbsqfybx .tips {
+    height: 1.62rem;
+    padding: 0.34rem 0.2rem 0;
+    text-align: center;
+    font-size: 0.24rem;
+    background: #FFF9D9;
+    margin-bottom: 0.2rem;
+}
+.dbsqfybx .tips .cont {
+   
+}
+.dbsqfybx .tips .address {
+    color: #449EFC;
+}
+
+.dbsqfybx .list {
+    background: #fff;
+    padding-left: 0.52rem;
+    margin-bottom: 0.2rem;
+}
+.dbsqfybx .list .li {
+    min-height: 1.12rem;
+    line-height: 1.12rem;
+    
+    font-size: 0.32rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsqfybx .list .li .li-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dbsqfybx .list .li .li-l {
+    color: #333;
+}
+.dbsqfybx .list .li .li-r {
+    padding-right: 0.38rem;
+    text-align: right;
+}
+
+.dbsqfybx .upload {
+    margin: 0.3rem 0;
+}
+.dbsqfybx .upload-img {
+    background-color: #fff;
+    padding-left: 0.38rem;
+}
+.dbsqfybx .upload-img .title {
+    padding: 0.4rem 0 0.36rem;
+    color: #333;
+    font-size: 0.32rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsqfybx .upload-img .title span {
+    font-size: 0.24rem;
+}
+
+.dbsqfybx .upload-img .uploadImgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dbsqfybx .upload-img .upload-img-li {
+    width: 1.62rem;
+    height: 1.62rem;
+    object-fit: cover;
+    display: inline-block;
+    margin: 0 0.15rem 0.15rem 0;
+}
+
+.dbsqfybx .upload-img .upload-img-li:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.dbsqfybx .upload-img .upload-img-li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dbsqfybx .upload-img .upload-img-png {
+    position: relative;
+    width: 1.62rem;
+    height: 1.62rem;
+    object-fit: cover;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.dbsqfybx .upload-img .upload-img-png .upload-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.dbsqfybx .upload-img .upload-img-png img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.dbsqfybx .upload-img .notes {
+    font-size: 0.24rem;
+    color: #9B9B9B;
+}
+
+.dbsqfybx .footer {
+    display: block;
+    margin: 0.74rem auto 0.52rem;
+    padding: 0 0.76rem;
+}
+.dbsqfybx .footer .agree {
+    padding: 0 0.5rem;
+    margin-bottom: 0.24rem;
+    font-size: 0.2rem;
+    color: #9B9B9B;
+}
+.dbsqfybx .footer .agree label {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.dbsqfybx .footer .agree label #ok {
+    margin-right: 0.06rem;
+}
+.dbsqfybx .footer .agree a {
+    color: #449EFC;
+}
+.dbsqfybx .footer .sub {
+    width: 100%;
+    height: 0.9rem;
+    border-radius: 0.9rem;
+    background-color: #759BFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0.36rem;
+}
+/* 弹框内容 */
+.dbsqfybx .mask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+/* 邮件地址 */
+.dbsqfybx .address-mask {
+    background-color: rgba(0,0,0,.6);
+}
+.dbsqfybx .address-detail {
+    width: 6rem;
+    margin: 2.36rem auto 0;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+.dbsqfybx .address-detail .title {
+    height: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.36rem;
+    color: #333;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsqfybx .address-detail .address-cont {
+    padding: 0.44rem 0.32rem 0 0.44rem;
+    border-bottom: 0.01rem solid #E2E2E2;
+}
+.dbsqfybx .address-detail .address-cont .li {
+    display: flex;
+    margin-bottom: 0.52rem;
+}
+.dbsqfybx .address-detail .address-cont .li .li-l {
+    font-size: 0.24rem;
+    color: #9B9B9B;
+    flex: none;
+    min-width: 1.2rem;
+    text-align-last: justify;
+    text-align:justify;
+    text-justify:distribute-all-lines;
+}
+.dbsqfybx .address-detail .address-cont .li .li-r {
+    font-size: 0.28rem;
+    color: #333;
+    
+}
+.dbsqfybx .address-detail .know {
+    height: 0.92rem;
+    color: #1A79F9;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
